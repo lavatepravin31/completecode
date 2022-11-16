@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="all">
+    <classes>
+      <class name="RunnerClass_one.PAymentGateway_Zipcode_field_blank_6_BTC"/>
+      <class name="RunnerClass_one.Purchase_AMOUNT_field_enter_valid_amount_PurchaseButton_LTC"/>
+      <class name="RunnerClass_one.Tranfer_window_wrong_adress_error_message_show_LTC"/>
+      <class name="RunnerClass_one.Tranfer_window_MAx_amount_error_message_show_BTC"/>
+    </classes>
+  </test> <!-- all -->
+</suite> <!-- Suite -->

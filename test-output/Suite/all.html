@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>TestNG:  all</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>all</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 08 17:11:48 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>171 seconds (171211 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='RunnerClass_one.Tranfer_window_wrong_adress_error_message_show_LTC.failedpop()'><b>failedpop</b><br>Test class: RunnerClass_one.Tranfer_window_wrong_adress_error_message_show_LTC<br/>
+<a href="#Output-423956799" onClick='toggleBox("Output-423956799", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-423956799" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-423956799">
+Enter BTC address on LTC address Field<br/>
+Quick Transfer<br/>
+failed pop is displayQuick Transfer<br/>
+Passed- Verify that user should not able to enter LTC address in destination address field  of BTC transfer window( BTC).<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>RunnerClass_one.Tranfer_window_wrong_adress_error_message_show_LTC@6b927fb</td></tr>
+<tr>
+<td title='RunnerClass_one.PAymentGateway_Zipcode_field_blank_6_BTC.Zipcode_error_message()'><b>Zipcode_error_message</b><br>Test class: RunnerClass_one.PAymentGateway_Zipcode_field_blank_6_BTC<br/>
+<a href="#Output-1221759982" onClick='toggleBox("Output-1221759982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1221759982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1221759982">
+Zip code field is Blank<br/>
+Error message is  : Enter valid Zipcode<br/>
+Pass- Verify that  without entering Zip code,  its should  show error message.<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>RunnerClass_one.PAymentGateway_Zipcode_field_blank_6_BTC@2e005c4b</td></tr>
+<tr>
+<td title='RunnerClass_one.Tranfer_window_MAx_amount_error_message_show_BTC.max_amount_error()'><b>max_amount_error</b><br>Test class: RunnerClass_one.Tranfer_window_MAx_amount_error_message_show_BTC<br/>
+<a href="#Output-1282100951" onClick='toggleBox("Output-1282100951", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1282100951" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1282100951">
+avaliabale balance: US $8.83<br/>
+Enter maximum amount in amount field : 111<br/>
+Error message is :Insufficiant Balance<br/>
+Quick transfer button is disabled<br/>
+Passed- Check the user can not able to enter amount more than available balance .<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>RunnerClass_one.Tranfer_window_MAx_amount_error_message_show_BTC@3e58a80e</td></tr>
+<tr>
+<td title='RunnerClass_one.Purchase_AMOUNT_field_enter_valid_amount_PurchaseButton_LTC.checkstatus()'><b>checkstatus</b><br>Test class: RunnerClass_one.Purchase_AMOUNT_field_enter_valid_amount_PurchaseButton_LTC<br/>
+<a href="#Output-1490466745" onClick='toggleBox("Output-1490466745", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1490466745" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1490466745">
+Enter valid amount in amount field <br/>
+Passed-Verify that user enter valid amount in amount field then purchase button is enable.<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>RunnerClass_one.Purchase_AMOUNT_field_enter_valid_amount_PurchaseButton_LTC@a514af7</td></tr>
+</table><p>
+</body>
+</html>

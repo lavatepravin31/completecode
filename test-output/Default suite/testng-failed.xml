@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="RunnerClass_one.PAymentGateway_cardnumber_invalid_1_LTC">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closebrowser"/>
+          <include name="screenshot"/>
+          <include name="cardnumber_error_message"/>
+          <include name="clickon_proced_button"/>
+        </methods>
+      </class> <!-- RunnerClass_one.PAymentGateway_cardnumber_invalid_1_LTC -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

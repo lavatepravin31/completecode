@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <test thread-count="5" name="CrossBrowsing1">
+ <parameter name="browser name" value="chrome"/>
+    <classes>
+      <class name="RunnerClass.TCNO555_AMOUNT_field_enter_string2crossbrowsing"/>
+    </classes>
+  </test> <!-- CrossBrowsing -->
+   <test thread-count="5" name="CrossBrowsing2">
+ <parameter name="browser name" value="firefox"/>
+    <classes>
+      <class name="RunnerClass.TCNO555_AMOUNT_field_enter_string2crossbrowsing"/>
+    </classes>
+  </test> <!-- CrossBrowsing -->
+</suite> <!-- Suite -->
